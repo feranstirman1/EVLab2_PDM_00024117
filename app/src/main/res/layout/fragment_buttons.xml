@@ -12,13 +12,14 @@
 
         <Button
             android:id="@+id/btn_anterior"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
             android:layout_height="wrap_content"
             android:text="Anterior"/>
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="200dp"
             android:text="Siguiente"
             android:id="@+id/btn_siguiente"/>
 
